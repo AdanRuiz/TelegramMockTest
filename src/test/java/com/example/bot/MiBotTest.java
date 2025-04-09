@@ -43,7 +43,7 @@ public class MiBotTest {
 
     @BeforeEach
     void setUp() {
-        // ✅ Inicializar el bot con un token simulado
+        // Inicializar el bot con un token simulado
         miBot = spy(new MiBot("7075157328:AAHgeGeAA7oSzSrntasoQLMhDQht25SOwEg"));
         //miBot.onRegister();
         silent = mock(SilentSender.class);
